@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500&family=Source+Code+Pro:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+    display: flex;
+    text-decoration: none;
+    color: black;
+  
+
+
+}
+a:link{
+    text-decoration: none;
+   
+}
+.sidebar{
+
+    background-color: #FCF8E8;
+    width: 20vw;
+    font-family: 'Kaisei Opti', serif;
+    height: 100vh;
+
+}
+.sidebar nav{
+         
+    padding: 13px;
+    font-size: 26px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 15px 9px;
+}
+
+
+
+.main{
+    /* background-color: blue; */
+    width: 90%;
+}
+.infocontainer{
+
+    /* background-color: chartreuse; */
+    width: 70vw;
+    height: 45vh;
+    display: flex;
+    margin: 102px auto ;
+    justify-content: space-around;
+}
+
+.devinfo{
+
+    display: flex;
+ justify-content: center;
+    flex-direction: column;
+
+}
+
+.intro{
+
+font-size: 40px;
+font-family: 'Kaisei Opti', serif;
+}
+
+.name{
+
+    font-size: 40px;
+    font-family: 'Kaisei Opti', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.about{
+    font-size: 30px;
+
+}
+
+.btn{
+
+  
+    margin: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.btn:hover{
+
+    background-color: rgb(68, 68, 180);
+}
+.buttons{
+    margin-top: 30px;
+
+}
+.profile img {
+    height: 45vh;
+}
+
+.contactform{
+
+    padding: 25px;
+    padding-top: 96px;
+}
+
+.contactform h1{
+    text-align: center;
+    font-family: 'Kaisei Opti', serif;
+}
+.contactform form div{
+ padding: 16px 0;
+ border-radius: 19px;
+ margin: 6px 0;
+ width: 35vw;
+}
+.contactform div {
+    padding: 15px 0;
+}
+#emailHelp{
+    font-size: 10px;
+    color: darkgray;
+    margin: 0 19px;
+}
+.mb-3{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 12px;
+    text-decoration: solid;
+}
+
+.contactform div form {
+    padding: 18px;
+}
+
+.mb-4{
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 50px;
+    text-decoration: solid;
+}
+
+.blogcontainer{
+    margin: 50px;
+    padding: 10px;
+}
+.blogitem.h2{
+
+    margin: 10px;
+    padding: 10px;
+}
+.intro.h1{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.intocontainer{
+    margin: 50px;
+    padding: 10px;
+}
